@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "358544637741",
+    "firebase_url": "https://thebaiganvines-62369.firebaseio.com",
+    "project_id": "thebaiganvines-62369",
+    "storage_bucket": "thebaiganvines-62369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358544637741:android:3cc70537e3d44949",
+        "android_client_info": {
+          "package_name": "com.tbv.akramhussain.thebaiganvines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358544637741-vsjclmugcifkhjodo139fdolpft1e7c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJDiybEM8p3LnyOF8g2C7GhiuRt2ZMTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

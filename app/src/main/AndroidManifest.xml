@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tbv.akramhussain.thebaiganvines">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@mipmap/ic_launcher" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".Articles.AppController"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Misc.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Web.Facebook"
+            android:label="@string/title_activity_facebook"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Web.Instagram"
+            android:label="@string/title_activity_instagram"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Web.Twitter"
+            android:label="@string/title_activity_twitter"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Web.VideoDisplay"
+            android:label="@string/title_activity_video_display"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Web.TheBaiganVinesExtras"
+            android:label="@string/title_activity_the_baigan_vines_extras"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Misc.About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Web.Website"
+            android:label="@string/title_activity_website"
+            android:parentActivityName=".Misc.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tbv.akramhussain.thebaiganvines.Misc.MainActivity" />
+        </activity>
+        <activity android:name=".Articles.PostActivity"
+                  android:label="Posts">
+        </activity>
+    </application>
+
+</manifest>

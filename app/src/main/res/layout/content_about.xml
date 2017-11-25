@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tbv.akramhussain.thebaiganvines.Misc.About"
+    tools:showIn="@layout/activity_about">
+    <ScrollView
+        android:layout_marginTop="57dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_gravity="center"
+                    android:text="The Baigan Vines, an Online Digital Entertainment Channel, bringing you The Best Short films, Comedy Skits, Social experiments and much more!
+" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_gravity="center"
+                    android:text=" Every activity of The Baigan Vines under one app!" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="For Business / Sponsor / Event enquiries, mail us on : contact@thebaiganvines.com" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="85dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="insta"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:text=" The Baigan Vines Production."
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:text=" All Rights Reserved 2016\u00A9\u00AE"
+                    android:layout_width="wrap_content" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_marginTop="500dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:textSize="18dp"
+                    android:text="App Developed By:"
+                    android:layout_width="wrap_content" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Mohammed Akram Hussain"
+                    android:layout_width="375dp"
+                    android:layout_weight="0.97" />
+                <GridLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="facebook"
+                    android:src="@drawable/facebook"
+                    android:clickable="true" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/instagram"
+                    android:onClick="insta"
+                    android:clickable="true" />
+                </GridLayout>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="P. Humpy Reddy"
+                    android:layout_width="375dp"
+                    android:layout_weight="0.97" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/instagram"
+                    android:onClick="insta1"
+                    android:clickable="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                     android:text="\n\n\n\n\n\n\n\n"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>
