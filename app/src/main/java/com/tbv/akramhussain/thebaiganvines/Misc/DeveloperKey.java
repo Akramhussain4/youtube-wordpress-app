@@ -5,6 +5,6 @@ package com.tbv.akramhussain.thebaiganvines.Misc;
  */
 
 public class DeveloperKey {
-    public static final String DEVELOPER_KEY = "AIzaSyD-xsp18wkg_Ju3uSpJjejQYwhMHRRP9oY";
+    public static final String DEVELOPER_KEY = "YOUR_DEVELOPER_KEY_HERE";
 
 }
