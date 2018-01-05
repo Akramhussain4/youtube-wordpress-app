@@ -28,4 +28,7 @@
     <string name="search_hint">Enter Search Query Here</string>
     <string name="loading_categories">Loading Categories...</string>
     <string name="error_load_categories">Network error. Failed to load Categories</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">gq4PrAgx8mgvbykSwVxd2aACk</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">klbBm2YOBxQIW25Rvz2aQuvuQKDLE0GM6KVpcY8JiG7gpIookP</string>
+
 </resources>

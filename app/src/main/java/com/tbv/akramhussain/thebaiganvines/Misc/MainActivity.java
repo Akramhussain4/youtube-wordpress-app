@@ -146,12 +146,15 @@ public class MainActivity extends AppCompatActivity
 
     private void JSON()
     {
-        if(!isNetworkAvailabe()) {
+        if(!isNetworkAvailabe())
+        {
             error.setVisibility(View.VISIBLE);
             sigpic.setVisibility(View.VISIBLE);
-            Snackbar snackbar = Snackbar.make(drawerLayout, "Network Error", Snackbar.LENGTH_INDEFINITE).setAction("RETRY", new View.OnClickListener() {
+            Snackbar snackbar = Snackbar.make(drawerLayout, "Network Error", Snackbar.LENGTH_INDEFINITE)
+                    .setAction("RETRY", new View.OnClickListener() {
                 @Override
-                public void onClick(View v) {
+                public void onClick(View v)
+                {
                     JSON();
                 }
             });
@@ -164,7 +167,9 @@ public class MainActivity extends AppCompatActivity
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder().url(videosUrl).build();
                 Call call = client.newCall(request);
-                call.enqueue(new Callback() {
+
+                call.enqueue(new Callback()
+                {
             @Override
             public void onFailure(Call call, IOException e) {
             }
